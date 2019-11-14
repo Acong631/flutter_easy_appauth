@@ -1,0 +1,33 @@
+PODS:
+  - AppAuth (1.2.0):
+    - AppAuth/Core (= 1.2.0)
+    - AppAuth/ExternalUserAgent (= 1.2.0)
+  - AppAuth/Core (1.2.0)
+  - AppAuth/ExternalUserAgent (1.2.0)
+  - Flutter (1.0.0)
+  - flutter_easy_appauth (0.0.1):
+    - AppAuth (= 1.2.0)
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - flutter_easy_appauth (from `.symlinks/plugins/flutter_easy_appauth/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AppAuth
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  flutter_easy_appauth:
+    :path: ".symlinks/plugins/flutter_easy_appauth/ios"
+
+SPEC CHECKSUMS:
+  AppAuth: bce82c76043657c99d91e7882e8a9e1a93650cd4
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_easy_appauth: 0ef909bb758819f18da9763767015f2de370c554
+
+PODFILE CHECKSUM: 64b2109b760ac9073c864e2a8278e6464efaa219
+
+COCOAPODS: 1.7.5
