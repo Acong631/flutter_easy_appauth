@@ -125,7 +125,7 @@ NSString *const TOKEN_METHOD = @"token";
             NSMutableDictionary *dic = [self processResponses:authState.lastTokenResponse authResponse:authState.lastAuthorizationResponse];
             result(@{@"response":dic,@"error":@"0",@"message":@"授权成功"});
         }else{
-            result(@{@"error":error.code?@(error.code):@"1",@"message":error.description});
+            result(@{@"error":error.code?[NSString stringWithFormat:@"%ld", error.code]:@"1",@"message":error.description});
         }
     }];
 
